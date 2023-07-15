@@ -1,0 +1,84 @@
+body {
+  background: gray;
+  font-family: arial;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+}
+
+.heading {
+  font-size: 30px;
+}
+
+.icon-rock {
+  border-color: transparent;
+  border-radius: 50px;
+  border: 2px solid black;
+  height: 110px;
+  margin: 30px 20px;
+  overflow: hidden;
+  cursor: pointer;
+  
+}
+
+.rock-button {
+  margin: 0px 180px 0px 0px;
+}
+
+
+.icon-paper {
+  border-color: transparent;
+  border-radius: 50px;
+  border: 2px solid black;
+  height: 110px;
+  margin: 30px 20px;
+  width: 250px;
+  overflow: hidden;
+  cursor: pointer;
+
+}
+
+.paper-button {
+  margin: 40px 0px 0px 0px;
+}
+
+.icon-scissors {
+  border-color: transparent;
+  border-radius: 50px;
+  border: 2px solid black;
+  height: 110px;
+  margin: 30px 20px;
+  overflow: hidden;
+  cursor: pointer;
+  
+}
+
+.scissors-button {
+  margin: 0px 0px 0px 180px
+}
+
+.result {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px 0px 10px 0px;
+  
+}
+
+.icons {
+  height: 50px;
+  border-radius: 20px;
+}
+
+.score {
+  margin-top: 10px;
+}
+
+.reset-score {
+  width: 150px;
+  height: 50px;
+}
